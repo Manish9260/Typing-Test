@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Test - Timer & Random Text</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: yellowgreen;" >
+
+  <div id="test-section" style="margin-top: 100px;">
+    <h2>Typing Test</h2>
+    <div id="timer" >🕒 Time: 0 second</div>
+    <p id="text-to-type">Loading...</p>
+
+    <textarea id="user-input" placeholder="Start typing here..." oninput="startTimer()"></textarea>
+    
+    <br>
+    <button onclick="checkTyping()">Submit</button>
+    <button onclick="refreshTest()">Refresh</button>
+
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js">
+   
+  </script>
+
+</body>
+</html>
